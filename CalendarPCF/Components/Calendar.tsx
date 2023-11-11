@@ -233,7 +233,7 @@ export class Calendar extends React.Component<CalendarProps, ICalendarState> {
         <div
           key={hour}
           onClick={() => this.handleSlotClick(`${day}-${hour}`)}
-          style={{ flex: 1, textAlign: "center", border: "1px solid #ccc", textDecoration: this.unavailableSlots.includes(`${day}-${hour}`) ? 'line-through' : 'none' }}
+          style={{ flex: 1, textAlign: "left",paddingLeft:"8px",paddingBottom:"4px", textDecoration: this.unavailableSlots.includes(`${day}-${hour}`) ? 'line-through' : 'none' }}
         >
           {hour} 
           {this.state.selectedSlots.includes(`${day}-${hour}`) && (
