@@ -1,7 +1,7 @@
 {
-  "name": "pcf-project",
+  "name": "calendar-pcf",
   "version": "1.0.0",
-  "description": "Project containing your PowerApps Component Framework (PCF) control.",
+  "description": "Interactive Calendar control to allow the user to create multiple bookings for a single day.",
   "scripts": {
     "build": "pcf-scripts build",
     "clean": "pcf-scripts clean",
